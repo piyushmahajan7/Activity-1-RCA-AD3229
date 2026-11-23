@@ -1,13 +1,17 @@
-Car Price Prediction Using Linear Regression
-1. Project Overview
+# Car Price Prediction Using Linear Regression
+
+## 1. Project Overview
 This project predicts the selling price of a used car using Machine Learning. Linear Regression is used to estimate the car's selling price based on its details.
-2. Objective
+
+## 2. Objective
 To build a Machine Learning model that predicts the selling price of a used car using its features.
-3. Dataset
+
+## 3. Dataset
+Datasetlink :- https://www.kaggle.com/code/vijayaadithyanvg/car-price-prediction-used-cars
 Dataset: Car Price Prediction Dataset
-https://www.kaggle.com/code/vijayaadithyanvg/car-price-prediction-used-cars
 
 The dataset contains the following columns:
+
 - Car_Name
 - Year
 - Selling_Price
@@ -17,8 +21,10 @@ The dataset contains the following columns:
 - Selling_type
 - Transmission
 - Owner
+
 Target Variable: Selling_Price
-4. Technologies Used
+
+## 4. Technologies Used
 - Python
 - Google Colab
 - NumPy
@@ -26,11 +32,13 @@ Target Variable: Selling_Price
 - Matplotlib
 - Seaborn
 - Scikit-learn
-5. Machine Learning Algorithm
+
+## 5. Machine Learning Algorithm
 Linear Regression
 
 Linear Regression is a supervised Machine Learning algorithm used to predict continuous numerical values.
-6. Project Workflow
+
+## 6. Project Workflow
 1. Import required libraries.
 2. Load the dataset.
 3. Perform data inspection.
@@ -42,18 +50,8 @@ Linear Regression is a supervised Machine Learning algorithm used to predict con
 9. Train the Linear Regression model.
 10. Predict car selling prices.
 11. Evaluate model performance.
-7. Model Evaluation
-The model was evaluated using the following metrics:
-MetricResultMAE1.88MSE11.23RMSE3.35R² Score0.564
-8. Conclusion
-The Linear Regression model was successfully trained to predict used car selling prices. The model achieved an R² score of approximately 0.564, indicating that it explains around 56.4% of the variation in selling prices.
-9. How to Run
-1. Open the notebook in Google Colab.
-2. Upload the dataset.
-3. Run all code cells sequentially.
-4. Enter car details to test the model.
-5. View the predicted selling price and evaluation results.
+## 8. Conclusion
+The Linear Regression model was successfully trained to predict used car selling prices. The model achieved an R² score of approximately 0.753, indicating
 
 
-
-https://github.com/complexiota
+Professor's GitHub (https://github.com/complexiota)
